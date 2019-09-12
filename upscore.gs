@@ -1,6 +1,6 @@
 function doPost(e) {
-  var ss = SpreadsheetApp.openByUrl("https://docs.google.com/spreadsheets/d/150IPBmd2mntHubGU2nb-y0WAwe7QvMUjdJkgJZCC4Bs/edit#gid=0");
-  var sheet = ss.getSheetByName("data");
+  var ss = SpreadsheetApp.openByUrl("xxx");
+  var sheet = ss.getSheetByName("xxx");
   var data = JSON.parse(e.postData.contents);
   var score = data.score;
   var uid = data.thuid;
