@@ -1,6 +1,6 @@
 # ggwebhook
 
-# config
+ config
 # webhook.gs
   var channelToken = ''; linebot token
   
