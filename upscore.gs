@@ -1,5 +1,5 @@
 function doPost(e) {
-  var ss = SpreadsheetApp.openByUrl("xxx");
+  var ss = SpreadsheetApp.openByUrl("https://docs.google.com/spreadsheets/d/");
   var sheet = ss.getSheetByName("xxx");
   var data = JSON.parse(e.postData.contents);
   var score = data.score;
