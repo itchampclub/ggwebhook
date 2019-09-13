@@ -639,7 +639,7 @@ function doPost(e) {
                            }
                            }
                              if (!duplicate) {
-                           sheet.appendRow([userId, cutscore]);
+                          var scoreans = "ยังไม่มีคะแนน";
                               }
 
             var mess = [{'type': 'text', 'text': "คะแนนสูงสุดของคุณ "+displayName+"\n"+scoreans+" คะแนน"}];
